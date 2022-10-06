@@ -1,0 +1,20 @@
+
+/* below we have a grouped selector */
+p, ul {
+    color:maroon;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:underline ;
+}
+/* descendant selector */
+p a {
+    color:aquamarine;
+}
+#firstparagraph {
+    color:darkgreen;
+}
+.pinktext{
+    color:pink;
+}
+a {
+    text-decoration: none;
+}
