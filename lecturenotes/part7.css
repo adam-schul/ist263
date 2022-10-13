@@ -1,0 +1,16 @@
+
+
+body {
+    background-color:#cf2424;
+    background-image: url('../images/newotto.png');
+    
+}
+
+p {
+    border: 2px solid #ec6111;
+    margin: 20px;
+    padding: 10px;
+    background-color: #234e3f;
+}
+
+
