@@ -1,0 +1,43 @@
+body{
+background-color: #43C6EA;
+color: #1f4027;
+}
+
+a {
+color: #B46159;
+}
+
+p {
+color: #1f4027;
+}
+
+h1 {
+    color:#0c3138; margin: 10px;
+}
+
+nav {
+    background-color:#defaff;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+nav a {
+    color: #727D6D;
+}
+
+nav a:hover {
+    background-color:#f5a7a2;
+}
+
+.tagline {
+    float: right;
+}
+
+.contact {display: flex; background-color: #e1f5ec; border-radius: 1em; margin: 20px; padding: 10px;}
+.links, .address {margin:20px;}
+.links {flex: 1;}
+.address {flex: 1;}
+.form_map {display: flex; background-color: #e1f5ec; border-radius: 1em; margin: 20px; padding: 10px;}
+.map, .form {margin: 20px;}
+.map{flex: 1; order: 1;}
+.form{flex:1; order: 2;}
