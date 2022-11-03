@@ -38,7 +38,9 @@ nav a:hover {
 .links, .address {margin:20px;}
 .links {flex: 1;}
 .address {flex: 1;}
-.form_map {display: flex; background-color: #e1f5ec; border-radius: 1em; margin: 20px; padding: 10px;}
+.form_map {display: flex; background-color: #e1f5ec; border-radius: 1em; margin: 20px; padding: 10px;
+flex-wrap: wrap;
+}
 .map, .form {margin: 20px;}
 .map{flex: 1; order: 1;}
 .form{flex:1; order: 2;}
@@ -50,3 +52,20 @@ svg {width: 80 px; height: auto;}
 .other_skills_flex{display: flex; flex: 1;}
 .overall_skills{display: flex;}
 p {margin: 20px; margin-bottom: 30px;}
+
+.banner {
+    max-width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    nav a {
+        display: block;
+        width: 100%;
+        margin: 5px;
+    }
+    .pipe {
+        display: none;
+    }
+}
