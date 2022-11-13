@@ -4,7 +4,7 @@ color: #1f4027;
 }
 
 a {
-color: #B46159;
+color: #2c0e0b;
 }
 
 p {
@@ -13,7 +13,7 @@ font-size: 1em;
 }
 
 #skip {
-    background-color: orange;
+    background-color: rgb(255, 233, 194);
     border: 1 px solid black;
     padding: 2px;
     position: absolute; /* out of page flow for layout */ 
