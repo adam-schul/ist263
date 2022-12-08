@@ -1,0 +1,86 @@
+body{
+background-color: #adedff;
+color: #1f4027;
+}
+
+a {
+color: #2c0e0b;
+}
+
+p {
+color: #1f4027;
+font-size: 1em;
+}
+
+#skip {
+    background-color: rgb(255, 233, 194);
+    border: 1 px solid black;
+    padding: 2px;
+    position: absolute; /* out of page flow for layout */ 
+    left: -999px;
+}
+
+#skip:focus {
+    left: 10px;
+    top:30px;
+}
+
+h1 {
+    color:#070b0c; margin: 10px;
+    text-align: center;
+    font-family: 'Rubik Vinyl', cursive;
+}
+
+nav {
+    background-color:#defaff;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+nav a {
+    color: #131612;
+}
+
+nav a:hover {
+    background-color:#f5a7a2;
+}
+
+.tagline {
+    float: right;
+}
+
+.contact {display: flex; background-color: #e1f5ec; border-radius: 1em; margin: 20px; padding: 10px;}
+.links, .address {margin:20px;}
+.links {flex: 1;}
+.address {flex: 1;}
+.form_map {display: flex; background-color: #e1f5ec; border-radius: 1em; margin: 20px; padding: 10px;
+flex-wrap: wrap;
+}
+.map, .form {margin: 20px;}
+.map{flex: 1; order: 1;}
+.form{flex:1; order: 2;}
+
+svg {width: 80 px; height: auto;}
+
+.skills {display: flex; flex: 3; justify-content: space-around;}
+.other_skills{background-color: #defaff;border-radius: 1em; margin: 20px; padding: 10px;}
+.other_skills_flex{display: flex; flex: 1;}
+.overall_skills{display: flex;}
+p {margin: 20px; margin-bottom: 30px;}
+
+.banner {
+    max-width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    nav a {
+        display: block;
+        width: 100%;
+        margin: 5px;
+    }
+    .pipe {
+        display: none;
+    }
+}
