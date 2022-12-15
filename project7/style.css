@@ -129,5 +129,4 @@ h1 {
    li {display: inline;}
 
 @media only screen and (min-width: 801px) {
-
-}
+    .toprow, .middlerow, .bottomrow, .row {flex-wrap: none;}}
