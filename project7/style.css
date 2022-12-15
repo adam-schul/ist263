@@ -93,7 +93,16 @@ h1 {
 .content {
     flex-direction: column;}
 
+.histimg {
+    border: 5px solid #7a5c08;
     
+}    
+
+
+
+.row {
+    display: flex;
+}
 
 #lat {
     margin-left: 15px;}
@@ -115,7 +124,7 @@ h1 {
 
 @media only screen and (max-width: 800px) {
    /* img {width: 100%}; */
-   .toprow, .middlerow, .bottomrow {flex-wrap: wrap;}}
+   .toprow, .middlerow, .bottomrow, .row {flex-wrap: wrap;}}
 
    li {display: inline;}
 
