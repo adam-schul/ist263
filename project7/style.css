@@ -1,0 +1,124 @@
+
+.content {
+    background-color: #e7cba0;
+    display: flex;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 14px;
+}
+
+body {
+    background-color: #83cbdd;
+}
+
+/*
+14768E
+86CDDC
+EDD6B3
+E87E28
+76201E
+*/
+
+/*.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap; */
+  
+  /*  position: fixed;
+    width: 100vh;
+    bottom: 0;
+    right: 2em;
+    line-height: 2em;
+    transform: rotate(270deg);
+    transform-origin: left; 
+
+    justify-content: space-around;
+    flex:1;
+    display: flex;
+    
+  }
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;}
+
+li {
+    display: inline;}
+
+a {
+    color: #201111;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 7px;
+    background-color: #daf7ff;
+    text-decoration: none;}
+
+a:hover {
+    color: #580505;
+    background-color: #e7cba0;}
+
+.header {
+    display: flex;}
+
+.title {
+    flex:5;}
+
+.nav {
+    flex:2;
+    padding: 5px;
+    margin: 12px;
+    text-align: center;}    
+
+.page {
+    display: flex;
+}
+
+img {
+    width: 400px;}
+
+a, p, h1 {
+    font-family: Arial, Helvetica, sans-serif;}
+
+h1 {
+    margin-left: 20px;}
+
+.toprow, .middlerow, .bottomrow {
+    display:flex;
+    margin: 5px;}
+
+.content {
+    flex-direction: column;}
+
+    
+
+#lat {
+    margin-left: 15px;}
+
+#legend {
+    margin-right: 15px;}
+
+#compass {
+    margin-right: 15px;}
+
+#alaska {
+    margin-right: 15px;
+    margin-left: 15px;}
+
+#scale {
+    margin-left: 15px;
+}
+
+
+@media only screen and (max-width: 800px) {
+   /* img {width: 100%}; */
+   .toprow, .middlerow, .bottomrow {flex-wrap: wrap;}}
+
+   li {display: inline;}
+
+@media only screen and (min-width: 801px) {
+
+}
