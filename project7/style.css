@@ -9,7 +9,18 @@
 
 }
 
+#skip {
+    background-color: orange;
+    border: 1 px solid black;
+    padding: 2px;
+    position: absolute; /* out of page flow for layout */ 
+    left: -999px;
+}
 
+#skip:focus {
+    left: 10px;
+    top:30px;
+}
 
 .content:hover, .content:focus {
     background-color: #a8e4a8;
